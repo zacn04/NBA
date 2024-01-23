@@ -33,3 +33,7 @@ class Scraper():
                 return -1
         else:
             return -2
+
+
+scraper = Scraper()
+scraper.get('https://www.basketball-reference.com/leagues/NBA_2023_per_game.html')
